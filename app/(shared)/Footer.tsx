@@ -8,24 +8,32 @@ const Footer = () => {
         <div className="mt-16 basis-1/2 sm:mt-0">
           <h4 className="font-bold">BLOG OF THE FUTURE</h4>
           <p className="my-5">
-            Lorem vitae ut augue auctor faucibus eget eget ut libero. Elementum
-            purus et arcu massa dictum condimentum. Augue scelerisque iaculis
-            orci ut habitant laoreet. Iaculis tristique.
+            Blog of the Future is your trusted source for the latest insights,
+            trends, and stories from the world of technology, travel, and more.
+            Explore our articles and stay informed about the future.
           </p>
           <p>© Blog of the Future All Rights Reserved.</p>
         </div>
         {/* SECOND COLUMN */}
         <div className="mt-16 basis-1/4 sm:mt-0">
           <h4 className="font-bold">Links</h4>
-          <p className="my-5">Massa orci senectus</p>
-          <p className="my-5">Some random link again</p>
-          <p>Ullamcorper vivamus</p>
+          <ul className="list my-5">
+            <li>
+              <a href="/">Trending</a>
+            </li>
+            <li>
+              <a href="/">Travel</a>
+            </li>
+            <li>
+              <a href="/">Other</a>
+            </li>
+          </ul>
         </div>
         {/* THIRD COLUMN */}
         <div className="mt-16 basis-1/4 sm:mt-0">
           <h4 className="font-bold">Contact Us</h4>
-          <p className="my-5">Tempus metus mattis risus volutpat egestas.</p>
-          <p>(333)425-6825</p>
+          <p className="my-5">Have questions or feedback? Reach out to us.</p>
+          <p>(510)993-6049</p>
         </div>
       </div>
     </footer>

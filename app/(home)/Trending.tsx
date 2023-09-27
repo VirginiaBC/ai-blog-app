@@ -48,22 +48,10 @@ const Trending = ({ trendingPosts }: Props) => {
           TRENDING
         </div>
         <p className="text-sm">
-          Nunc enim lobortis quam risus et feugiat nibh eu ornare. Molestie sit
-          nulla dolor diam turpis.
+          Stay up to date with the latest trends in technology, travel, and
+          more.
         </p>
       </div>
-
-      {/* flex option */}
-      {/* <div className="flex justify-between gap-3 my-3">
-        <div className="basis-1/2 bg-wh-500 h-96"></div>
-        <div className="flex flex-col basis-1/2 gap-3 h-96">
-          <div className="basis-1/2 bg-wh-500"></div>
-          <div className="flex basis-1/2 gap-3">
-            <div className="basis-1/2 bg-wh-500"></div>
-            <div className="basis-1/2 bg-wh-500"></div>
-          </div>
-        </div>
-      </div> */}
 
       {/* grid option */}
       <div className="sm:grid gap-5 grid-cols-4 grid-rows-2 sm:h-[600px] my-3">
@@ -86,9 +74,9 @@ const Trending = ({ trendingPosts }: Props) => {
       </div>
 
       <p className="text-sm">
-        Id cursus purus adipiscing ipsum pretium. Scelerisque suspendisse
-        pharetra ultrices mauris ut lacus sagittis pharetra dictum. Congue
-        viverra in aliquam feugiat pellentesque.
+        Explore a variety of articles and discover interesting stories about
+        technology, travel, and more. Whether you're interested in the latest
+        gadgets or the best travel destinations, we've got you covered.
       </p>
     </section>
   );

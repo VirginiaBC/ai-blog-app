@@ -40,8 +40,9 @@ const Sidebar = (props: Props) => {
         Geoffrey Epstein
       </h4>
       <p className="text-wh-500 text-center text-sm">
-        Sit diam vel lacus tortor molestie amet tincidunt. Amet amet arcu sed
-        facilisi
+        Meet Geoffrey Epstein, the author behind the articles. With a passion
+        for technology and travel, Geoffrey brings you engaging and informative
+        content.
       </p>
     </section>
   );
