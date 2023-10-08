@@ -37,12 +37,12 @@ const Sidebar = (props: Props) => {
         />
       </div>
       <h4 className="py-3 px-5 text-wh-500 font-bold text-center">
-        Geoffrey Epstein
+        Eleanor Anderson
       </h4>
       <p className="text-wh-500 text-center text-sm">
-        Meet Geoffrey Epstein, the author behind the articles. With a passion
-        for technology and travel, Geoffrey brings you engaging and informative
-        content.
+        Meet Eleanor Anderson, the author behind the articles. With a deep
+        appreciation for art and interior design, Eleanor brings you insightful
+        and inspiring content on creating beautiful living spaces.
       </p>
     </section>
   );
